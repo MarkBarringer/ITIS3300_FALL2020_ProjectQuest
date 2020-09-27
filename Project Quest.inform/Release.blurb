@@ -1,0 +1,57 @@
+! Blurb file created by Inform build 6M62
+
+status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\markbarr\Documents\Inform\Projects\Project Quest.inform\Build\StatusCblorb.html"
+
+
+! Identification
+
+project folder "C:\Users\markbarr\Documents\Inform\Projects\Project Quest.inform"
+release to "C:\Users\markbarr\Documents\Inform\Projects\Project Quest.materials\Release"
+
+! Blorb instructions
+
+storyfile leafname "Project Quest.zblorb"
+storyfile "C:\Users\markbarr\Documents\Inform\Projects\Project Quest.inform\Build\output.z8" include
+ifiction "C:\Users\markbarr\Documents\Inform\Projects\Project Quest.inform\Metadata.iFiction" include
+cover "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
+picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
+release file "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
+release file "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Small Cover.jpg"
+
+! Placeholder variables
+
+placeholder [IFID] = "5B2F5C61-B2C5-4CB0-95DD-4FA3BDC6B273"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2020"
+placeholder [TITLE] = "Project Quest"
+placeholder [AUTHOR] = "ITIS-3300 Fall 2020 Group 2"
+placeholder [BLURB] = "A work of interactive fiction."
+
+! Other material to release
+
+
+! Website instructions
+
+placeholder [ENCODEDSTORYFILE] = "Project Quest.zblorb.js"
+template path "C:\Users\markbarr\Documents\Inform\Projects\Project Quest.materials\Templates"
+template path "C:\Users\markbarr\Documents\Inform\Templates"
+template path "C:\Program Files (x86)\Inform 7\Internal\Templates"
+placeholder [INTERPRETERSCRIPTS] = " "
+interpreter "Parchment" "z"
+base64 "C:\Users\markbarr\Documents\Inform\Projects\Project Quest.inform\Build\output.z8" to "C:\Users\markbarr\Documents\Inform\Projects\Project Quest.materials\Release\interpreter\Project Quest.zblorb.js"
+
+! Website instructions
+
+template path "C:\Users\markbarr\Documents\Inform\Projects\Project Quest.materials\Templates"
+template path "C:\Users\markbarr\Documents\Inform\Templates"
+template path "C:\Program Files (x86)\Inform 7\Internal\Templates"
+css
+website "Standard"
+status instruction ||&nbsp;<a href="source:story.ni#line3"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc403.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory postcard'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||

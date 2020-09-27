@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-1">
+  <generator>Windows Inform 7 6M62</generator>
+  <activeNode nodeId="node-105"/>
+  <item nodeId="node-1">
+    <command xml:space="preserve">Project Quest</command>
+    <result xml:space="preserve">Project Quest&#x000A;An Interactive Fiction by ITIS-3300 Fall 2020 Group 2&#x000A;Release 1 / Serial number 200926 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Conference room&#x000A;You are a student in Professor Cynthia Burke's Software Requirements and Project Management class at UNC Charlotte. Presently you are in a classroom awaiting a quiz on Project Scope management. You are sitting at a desk with other students around you, and the professor is standing in front of a podium in the front of the class. Your computer which you will be using to take the quiz is right in front of you. There is a door to the South.&#x000A;&#x000A;The professor has asked if anyone wants another quick rundown on scope before the quiz. Go east to start the quiz.&#x000A;&#x000A;(DEBUG "examine the leaflet, ask professor burke about the project, examine computer, south, s, east, e")&#x000A;&#x000A;Professor Burke stands patiently waiting for you to do something...&#x000A;&#x000A;You can also see a computer and a leaflet here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Group Project&#x000A;An Interactive Fiction by ITIS-3300 Fall 2020 Group 2&#x000A;Release 1 / Serial number 200921 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Conference room&#x000A;You are standing in a rather unappealing conference room.  There is a table in the middle of the room.  There is a door to the South.&#x000A;&#x000A;You can see a clipboard, a leaflet and Professor Burke here.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-2"/>
+      <child nodeId="node-10"/>
+      <child nodeId="node-13"/>
+      <child nodeId="node-19"/>
+      <child nodeId="node-33"/>
+      <child nodeId="node-37"/>
+      <child nodeId="node-38"/>
+      <child nodeId="node-41"/>
+      <child nodeId="node-54"/>
+      <child nodeId="node-61"/>
+      <child nodeId="node-71"/>
+    </children>
+  </item>
+  <item nodeId="node-2">
+    <command xml:space="preserve">say hello to professor burke</command>
+    <result xml:space="preserve">There is no reply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">There is no reply.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-3"/>
+    </children>
+  </item>
+  <item nodeId="node-3">
+    <command xml:space="preserve">examine professor burke</command>
+    <result xml:space="preserve">Professor bruke stands patiently waiting for you to do something...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Professor bruke stands patiently waiting for you to do something...&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-4"/>
+    </children>
+  </item>
+  <item nodeId="node-4">
+    <command xml:space="preserve">ask professor burke about the project</command>
+    <result xml:space="preserve">Professor Burke says that you should be much further along than you currently are.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Professor Burke says that you should be much further along than you currently are.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-5"/>
+    </children>
+  </item>
+  <item nodeId="node-5">
+    <command xml:space="preserve">examine leaflet</command>
+    <result xml:space="preserve">Welcome to the group project for ITIS-3300 Fall 2020 group 2.  During which you will create a project plan using standard project management methods.  You will be scored for your decisions.  Good luck!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Welcome to the group project for ITIS-3300 Fall 2020 group 2.  During which you will create a project plan using standard project management methods.  You will be scored for your decisions.  Good luck!&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-6"/>
+    </children>
+  </item>
+  <item nodeId="node-6">
+    <command xml:space="preserve">examine clipboard</command>
+    <result xml:space="preserve">It's just an empty clipboard.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">It's just an empty clipboard.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-7"/>
+    </children>
+  </item>
+  <item nodeId="node-7">
+    <command xml:space="preserve">get clipboard</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-8"/>
+    </children>
+  </item>
+  <item nodeId="node-8">
+    <command xml:space="preserve">get leaflet</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-9"/>
+    </children>
+  </item>
+  <item nodeId="node-9">
+    <command xml:space="preserve">get professor burke</command>
+    <result xml:space="preserve">I don't suppose Professor Burke would care for that.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-10">
+    <command xml:space="preserve">examine table</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-11"/>
+    </children>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">examine clipboard</command>
+    <result xml:space="preserve">It's just an empty clipboard.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-12"/>
+    </children>
+  </item>
+  <item nodeId="node-12">
+    <command xml:space="preserve">get clipboard</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">examine clipboard</command>
+    <result xml:space="preserve">It's just an empty clipboard.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-14"/>
+    </children>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">get clipboard</command>
+    <result xml:space="preserve">Excellent.&#x000A;&#x000A;[Your score has just gone up by two points.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-15"/>
+    </children>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">read leaflet</command>
+    <result xml:space="preserve">Welcome to the group project for ITIS-3300 Fall 2020 group 2.  During which you will create a project plan using standard project management methods.  You will be scored for your decisions.  Good luck!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-16"/>
+    </children>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">get leaflet</command>
+    <result xml:space="preserve">You have earned 1 point.&#x000A;&#x000A;[Your score has just gone up by one point.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-17"/>
+    </children>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">Examine professor burke</command>
+    <result xml:space="preserve">Professor bruke stands patiently waiting for you to do something...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-18"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">ask professor burke about the project</command>
+    <result xml:space="preserve">Professor Burke says that you should be much further along than you currently are.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">get clipbaord</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-20"/>
+    </children>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">get clipboard</command>
+    <result xml:space="preserve">You have the clipboard, this will be heplful to keep papers organized.&#x000A;&#x000A;[Your score has just gone up by two points.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-21"/>
+    </children>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">examine leafelt</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-22"/>
+    </children>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">examine leaflet</command>
+    <result xml:space="preserve">Welcome to the group project for ITIS-3300 Fall 2020 group 2.  During which you will create a project plan using standard project management methods.  You will be scored for your decisions.  Good luck!&#x000A;&#x000A;Nice.&#x000A;&#x000A;[Your score has just gone up by one point.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">get leaflet</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-24"/>
+    </children>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">examine professor burke</command>
+    <result xml:space="preserve">Professor bruke stands patiently waiting for you to do something...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-25"/>
+    </children>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">ask professor burke about the project</command>
+    <result xml:space="preserve">Professor Burke says that you should be much further along than you currently are.&#x000A;Well done.&#x000A;&#x000A;[Your score has just gone up by two points.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-26"/>
+    </children>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">score</command>
+    <result xml:space="preserve">You have so far scored 5 out of a possible 100, in 6 turns.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-27"/>
+    </children>
+  </item>
+  <item nodeId="node-27">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">hallway&#x000A;This is a hallway outside the conference room.  The hallway leads further South and East.  The conference room is North.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-28"/>
+    </children>
+  </item>
+  <item nodeId="node-28">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">stairwell&#x000A;A side stairwell that only leads down.  To the North is the hallway.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-29"/>
+    </children>
+  </item>
+  <item nodeId="node-29">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">basement&#x000A;A dark and damp basement with empty cardboard boxes in various stages of decay.  Any attempt to touch the boxes results in it failing to old, shredded pieces.  A stairwell leads up from here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-30"/>
+    </children>
+  </item>
+  <item nodeId="node-30">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">stairwell&#x000A;A side stairwell that only leads down.  To the North is the hallway.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-31"/>
+    </children>
+  </item>
+  <item nodeId="node-31">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">hallway&#x000A;This is a hallway outside the conference room.  The hallway leads further South and East.  The conference room is North.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-32"/>
+    </children>
+  </item>
+  <item nodeId="node-32">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Conference room&#x000A;You are standing in a rather unappealing conference room.  There is a table in the middle of the room.  There is a door to the South.&#x000A;&#x000A;You can see Professor Burke here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-33">
+    <command xml:space="preserve">ask professor burke about the project</command>
+    <result xml:space="preserve">To put it simply, scope is the defined functions of a product. What the product does, what it doesn't do etc. Early on in any project, this would be defined based on available resources, and the desires of the stakeholders, or those who would benefit from the project's completion. It is important to decide this first, and very clearly, as scope creep can and does kill projects when they try to do too many things. Scope is often defined in a process called mind mapping in which the project builders start with an idea and build outwards from that. Overall it is simply important that scope is clear from the beginning. With that, I believe we have to start the quiz now.&#x000A;&#x000A;Professor Burke says that you should be much further along than you currently are.&#x000A;Well done.&#x000A;&#x000A;[Your score has just gone up by two points.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-34"/>
+    </children>
+  </item>
+  <item nodeId="node-34">
+    <command xml:space="preserve">get computer</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-35"/>
+    </children>
+  </item>
+  <item nodeId="node-35">
+    <command xml:space="preserve">examine computer</command>
+    <result xml:space="preserve">It's just a computer, I think it's  Kaypro?&#x000A;&#x000A;Oh?  You've used a computer before?  This should be heplful to you.&#x000A;&#x000A;[Your score has just gone up by two points.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-36"/>
+    </children>
+  </item>
+  <item nodeId="node-36">
+    <command xml:space="preserve">read leaflet</command>
+    <result xml:space="preserve">Welcome to ProjectQuest version 1.0! This game is a text-based adventure designed to help students practice their understanding of software project management. In this first version the focus is project scope management.  You will be scored for your decisions.  Good luck!&#x000A;&#x000A;[Your score has just gone up by one point.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-37">
+    <command xml:space="preserve">read leaflet</command>
+    <result xml:space="preserve">Welcome to ProjectQuest version 1.0! This game is a text-based adventure designed to help students practice their understanding of software project management. In this first version the focus is project scope management.  You will be scored for your decisions.&#x000A;&#x000A;The game presents the user with a scenario via text, and the user can react by typing what they wish to do into the console. For example, if the game told you there is a sandwich in front of you, you might type "eat sandwich" or "eat the sandwich". The inputs are not case sensitive, so do not worry about that, however, try to avoid adding too much beyond exactly what you wish to do to avoid confusing the game. If you make a wrong input do not worry though, as the game will just repeat what it just told you again.&#x000A;&#x000A;We hope you enjoy and learn from this version of Project Quest!&#x000A;&#x000A;Good luck!&#x000A;&#x000A;[Your score has just gone up by one point.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+  </item>
+  <item nodeId="node-38">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-39"/>
+    </children>
+  </item>
+  <item nodeId="node-39">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">hallway&#x000A;This is a hallway outside the conference room.  The hallway leads further South and East.  The conference room is North.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-40"/>
+    </children>
+  </item>
+  <item nodeId="node-40">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Conference room&#x000A;You are a student in Professor Cynthia Burke's Software Requirements and Project Management class at UNC Charlotte. Presently you are in a classroom awaiting a quiz on Project Scope management. You are sitting at a desk with other students around you, and the professor is standing in front of a podium in the front of the class. Your computer which you will be using to take the quiz is right in front of you. There is a door to the South.&#x000A;&#x000A;The professor has asked if anyone wants another quick rundown on scope before the quiz. If not, she will start the quiz. What do you do, start the quiz, or ask the professor?&#x000A;&#x000A;Professor Burke stands patiently waiting for you to do something...&#x000A;&#x000A;You can also see a computer and a leaflet here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-41">
+    <command xml:space="preserve">get leaflet</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-42"/>
+    </children>
+  </item>
+  <item nodeId="node-42">
+    <command xml:space="preserve">read leaflet</command>
+    <result xml:space="preserve">Welcome to ProjectQuest version 1.0! This game is a text-based adventure designed to help students practice their understanding of software project management. In this first version the focus is project scope management.  You will be scored for your decisions.&#x000A;&#x000A;The game presents the user with a scenario via text, and the user can react by typing what they wish to do into the console. For example, if the game told you there is a sandwich in front of you, you might type "eat sandwich" or "eat the sandwich". The inputs are not case sensitive, so do not worry about that, however, try to avoid adding too much beyond exactly what you wish to do to avoid confusing the game. If you make a wrong input do not worry though, as the game will just repeat what it just told you again.&#x000A;&#x000A;We hope you enjoy and learn from this version of Project Quest!&#x000A;&#x000A;Good luck!&#x000A;&#x000A;[Your score has just gone up by one point.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-43"/>
+    </children>
+  </item>
+  <item nodeId="node-43">
+    <command xml:space="preserve">examine computer</command>
+    <result xml:space="preserve">It's just a computer, I think it's  Kaypro?&#x000A;&#x000A;Oh?  You've used a computer before?  This should be heplful to you.&#x000A;&#x000A;[Your score has just gone up by two points.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-44"/>
+    </children>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve">talk to professor burke</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-45"/>
+    </children>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">ask professor burke</command>
+    <result xml:space="preserve">(for the leaflet)&#x000A;(Professor Burke first taking the leaflet)&#x000A;Professor Burke has better things to do.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-46"/>
+    </children>
+  </item>
+  <item nodeId="node-46">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a leaflet&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-47"/>
+    </children>
+  </item>
+  <item nodeId="node-47">
+    <command xml:space="preserve">ask professor burke about the project</command>
+    <result xml:space="preserve">To put it simply, scope is the defined functions of a product. What the product does, what it doesn't do etc. Early on in any project, this would be defined based on available resources, and the desires of the stakeholders, or those who would benefit from the project's completion. It is important to decide this first, and very clearly, as scope creep can and does kill projects when they try to do too many things.&#x000A;&#x000A;Scope is often defined in a process called mind mapping in which the project builders start with an idea and build outwards from that. Overall it is simply important that scope is clear from the beginning.&#x000A;&#x000A;With that, I believe we have to start the quiz now.&#x000A;Well done.&#x000A;&#x000A;[Your score has just gone up by two points.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-48"/>
+    </children>
+  </item>
+  <item nodeId="node-48">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Conference room&#x000A;You are a student in Professor Cynthia Burke's Software Requirements and Project Management class at UNC Charlotte. Presently you are in a classroom awaiting a quiz on Project Scope management. You are sitting at a desk with other students around you, and the professor is standing in front of a podium in the front of the class. Your computer which you will be using to take the quiz is right in front of you. There is a door to the South.&#x000A;&#x000A;The professor has asked if anyone wants another quick rundown on scope before the quiz. If not, she will start the quiz. What do you do, start the quiz, or ask the professor?&#x000A;&#x000A;Professor Burke stands patiently waiting for you to do something...&#x000A;&#x000A;You can also see a computer here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-49"/>
+    </children>
+  </item>
+  <item nodeId="node-49">
+    <command xml:space="preserve">lab</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-50"/>
+    </children>
+  </item>
+  <item nodeId="node-50">
+    <command xml:space="preserve">enter lab</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-51"/>
+    </children>
+  </item>
+  <item nodeId="node-51">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-52"/>
+    </children>
+  </item>
+  <item nodeId="node-52">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-53"/>
+    </children>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">hallway&#x000A;This is a hallway outside the conference room.  The hallway leads further South and East.  The conference room is North.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-55"/>
+    </children>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Lab&#x000A;You can see Sam here.&#x000A;&#x000A;Sam asks you, "In what year was Delaware admitted into the Union?"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-56"/>
+    </children>
+  </item>
+  <item nodeId="node-56">
+    <command xml:space="preserve">1985</command>
+    <result xml:space="preserve">Wrong!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-57"/>
+    </children>
+  </item>
+  <item nodeId="node-57">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-58"/>
+    </children>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-59"/>
+    </children>
+  </item>
+  <item nodeId="node-59">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Lab&#x000A;You can see Sam here.&#x000A;&#x000A;Sam asks you, "In what year was Florida admitted into the Union?"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-60"/>
+    </children>
+  </item>
+  <item nodeId="node-60">
+    <command xml:space="preserve">1845</command>
+    <result xml:space="preserve">Correct! (March 3rd, to be exact!)&#x000A;&#x000A;[Your score has just gone up by one point.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-61">
+    <command xml:space="preserve">examine leafelt</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-62"/>
+    </children>
+  </item>
+  <item nodeId="node-62">
+    <command xml:space="preserve">examine leaflet</command>
+    <result xml:space="preserve">Welcome to ProjectQuest version 1.0! This game is a text-based adventure designed to help students practice their understanding of software project management. In this first version the focus is project scope management.  You will be scored for your decisions.&#x000A;&#x000A;The game presents the user with a scenario via text, and the user can react by typing what they wish to do into the console. For example, if the game told you there is a sandwich in front of you, you might type "eat sandwich" or "eat the sandwich". The inputs are not case sensitive, so do not worry about that, however, try to avoid adding too much beyond exactly what you wish to do to avoid confusing the game. If you make a wrong input do not worry though, as the game will just repeat what it just told you again.&#x000A;&#x000A;We hope you enjoy and learn from this version of Project Quest!&#x000A;&#x000A;Good luck!&#x000A;&#x000A;[Your score has just gone up by one point.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-63"/>
+    </children>
+  </item>
+  <item nodeId="node-63">
+    <command xml:space="preserve">examine computer</command>
+    <result xml:space="preserve">It's just a computer, I think it's  Kaypro?&#x000A;&#x000A;Oh?  You've used a computer before?  This should be heplful to you.&#x000A;&#x000A;[Your score has just gone up by two points.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-64"/>
+    </children>
+  </item>
+  <item nodeId="node-64">
+    <command xml:space="preserve">ask professor burke about the project</command>
+    <result xml:space="preserve">To put it simply, scope is the defined functions of a product. What the product does, what it doesn't do etc. Early on in any project, this would be defined based on available resources, and the desires of the stakeholders, or those who would benefit from the project's completion. It is important to decide this first, and very clearly, as scope creep can and does kill projects when they try to do too many things.&#x000A;&#x000A;Scope is often defined in a process called mind mapping in which the project builders start with an idea and build outwards from that. Overall it is simply important that scope is clear from the beginning.&#x000A;&#x000A;With that, I believe we have to start the quiz now.&#x000A;Well done.&#x000A;&#x000A;[Your score has just gone up by two points.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-65"/>
+    </children>
+  </item>
+  <item nodeId="node-65">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">quiz&#x000A;You can see Sam here.&#x000A;&#x000A;Sam asks you, "In what year was Hawaii admitted into the Union?"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-66"/>
+    </children>
+  </item>
+  <item nodeId="node-66">
+    <command xml:space="preserve">1987</command>
+    <result xml:space="preserve">Wrong!&#x000A;&#x000A;Sam asks you, "In what year was Florida admitted into the Union?"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-67"/>
+    </children>
+  </item>
+  <item nodeId="node-67">
+    <command xml:space="preserve">1457</command>
+    <result xml:space="preserve">Wrong!&#x000A;&#x000A;Sam asks you, "In what year was Delaware admitted into the Union?"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-68"/>
+    </children>
+  </item>
+  <item nodeId="node-68">
+    <command xml:space="preserve">1960</command>
+    <result xml:space="preserve">Wrong!&#x000A;&#x000A;Sam asks you, "In what year was Delaware admitted into the Union?"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-69"/>
+    </children>
+  </item>
+  <item nodeId="node-69">
+    <command xml:space="preserve">1787</command>
+    <result xml:space="preserve">Correct! (December 7th, to be exact!)&#x000A;&#x000A;[Your score has just gone up by one point.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-70"/>
+    </children>
+  </item>
+  <item nodeId="node-70">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">quiz&#x000A;You can see Sam here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-71">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">quiz&#x000A;You can see Sam here.&#x000A;&#x000A;Sam asks you, "In what year was Florida admitted into the Union?"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-72"/>
+      <child nodeId="node-82"/>
+      <child nodeId="node-83"/>
+    </children>
+  </item>
+  <item nodeId="node-72">
+    <command xml:space="preserve">1998</command>
+    <result xml:space="preserve">Wrong!&#x000A;&#x000A;Sam asks you, "In what year was Delaware admitted into the Union?"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-73"/>
+    </children>
+  </item>
+  <item nodeId="node-73">
+    <command xml:space="preserve">1665</command>
+    <result xml:space="preserve">Wrong!&#x000A;&#x000A;Sam asks you, "In what year was Delaware admitted into the Union?"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-74"/>
+    </children>
+  </item>
+  <item nodeId="node-74">
+    <command xml:space="preserve">1455</command>
+    <result xml:space="preserve">Wrong!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-75"/>
+    </children>
+  </item>
+  <item nodeId="node-75">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-76"/>
+    </children>
+  </item>
+  <item nodeId="node-76">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">quiz&#x000A;You can see Sam here.&#x000A;&#x000A;Sam asks you, "In what year was Delaware admitted into the Union?"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-77"/>
+    </children>
+  </item>
+  <item nodeId="node-77">
+    <command xml:space="preserve">1587</command>
+    <result xml:space="preserve">Wrong!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-78"/>
+    </children>
+  </item>
+  <item nodeId="node-78">
+    <command xml:space="preserve">test</command>
+    <result xml:space="preserve">&gt;--&gt; The following tests are available:&#x000A;'test me'&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-79"/>
+    </children>
+  </item>
+  <item nodeId="node-79">
+    <command xml:space="preserve">test me</command>
+    <result xml:space="preserve">(Testing.)&#x000A;&#x000A;&gt;[1] 1845&#x000A;I didn't understand that sentence.&#x000A;&#x000A;&gt;[2] z&#x000A;Time passes.&#x000A;&#x000A;Sam asks you, "In what year was Hawaii admitted into the Union?"&#x000A;&#x000A;&gt;[3] z&#x000A;(ignoring the question)&#x000A;&#x000A;Time passes.&#x000A;&#x000A;Sam asks you, "In what year was Florida admitted into the Union?"&#x000A;&#x000A;&gt;[4] 1787&#x000A;Wrong!&#x000A;&#x000A;&gt;[5] 1792&#x000A;I didn't understand that sentence.&#x000A;&#x000A;&gt;[6] z&#x000A;Time passes.&#x000A;&#x000A;Sam asks you, "In what year was Hawaii admitted into the Union?"&#x000A;&#x000A;&gt;[7] 1845&#x000A;Wrong!&#x000A;&#x000A;&gt;[8] g&#x000A;I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-80"/>
+    </children>
+  </item>
+  <item nodeId="node-80">
+    <command xml:space="preserve">table</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-81"/>
+    </children>
+  </item>
+  <item nodeId="node-81">
+    <command xml:space="preserve">Test me with "1845 / z / z / 1787 / 1792 / z / 1845 / g". </command>
+    <result xml:space="preserve">I only understood you as far as wanting to test that.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-82">
+    <command xml:space="preserve">1845</command>
+    <result xml:space="preserve">Correct! (March 3rd, to be exact!)&#x000A;&#x000A;Sam asks you, "In what year was Delaware admitted into the Union?" (topic entry)&#x000A;[Your score has just gone up by one point.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-83">
+    <command xml:space="preserve">examine sam</command>
+    <result xml:space="preserve">(ignoring the question)&#x000A;&#x000A;Sam says he is going to ask you some questions, just type your answers. Type look or l for me to ask another question.&#x000A;&#x000A;(DEBUG "1845, 1787, 1960")&#x000A;&#x000A;Sam asks you, "In what year was Florida admitted into the Union?"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-84"/>
+    </children>
+  </item>
+  <item nodeId="node-84">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">(ignoring the question)&#x000A;&#x000A;quiz&#x000A;You can see Sam here.&#x000A;&#x000A;Sam asks you, "In what year was Delaware admitted into the Union?"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-85"/>
+    </children>
+  </item>
+  <item nodeId="node-85">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">(ignoring the question)&#x000A;&#x000A;quiz&#x000A;You can see Sam here.&#x000A;&#x000A;Sam asks you, "In what year was Hawaii admitted into the Union?"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-86"/>
+    </children>
+  </item>
+  <item nodeId="node-86">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">(ignoring the question)&#x000A;&#x000A;quiz&#x000A;You can see Sam here.&#x000A;&#x000A;Sam asks you, "In what year was Delaware admitted into the Union?"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-87"/>
+    </children>
+  </item>
+  <item nodeId="node-87">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">(ignoring the question)&#x000A;&#x000A;quiz&#x000A;You can see Sam here.&#x000A;&#x000A;Sam asks you, "In what year was Florida admitted into the Union?"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-88"/>
+    </children>
+  </item>
+  <item nodeId="node-88">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">(ignoring the question)&#x000A;&#x000A;quiz&#x000A;You can see Sam here.&#x000A;&#x000A;Sam asks you, "In what year was Florida admitted into the Union?"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-89"/>
+    </children>
+  </item>
+  <item nodeId="node-89">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">(ignoring the question)&#x000A;&#x000A;quiz&#x000A;You can see Sam here.&#x000A;&#x000A;Sam asks you, "In what year was Hawaii admitted into the Union?"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-90"/>
+    </children>
+  </item>
+  <item nodeId="node-90">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">(ignoring the question)&#x000A;&#x000A;quiz&#x000A;You can see Sam here.&#x000A;&#x000A;Sam asks you, "In what year was Delaware admitted into the Union?"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-91"/>
+    </children>
+  </item>
+  <item nodeId="node-91">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-92"/>
+    </children>
+  </item>
+  <item nodeId="node-92">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-93"/>
+    </children>
+  </item>
+  <item nodeId="node-93">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-94"/>
+    </children>
+  </item>
+  <item nodeId="node-94">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-95"/>
+    </children>
+  </item>
+  <item nodeId="node-95">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">(ignoring the question)&#x000A;&#x000A;quiz&#x000A;You can see Sam here.&#x000A;&#x000A;Sam asks you, "In what year was Delaware admitted into the Union?"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-96"/>
+    </children>
+  </item>
+  <item nodeId="node-96">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-97"/>
+    </children>
+  </item>
+  <item nodeId="node-97">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-98"/>
+    </children>
+  </item>
+  <item nodeId="node-98">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-99"/>
+    </children>
+  </item>
+  <item nodeId="node-99">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-100"/>
+    </children>
+  </item>
+  <item nodeId="node-100">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-101"/>
+    </children>
+  </item>
+  <item nodeId="node-101">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">(ignoring the question)&#x000A;&#x000A;quiz&#x000A;You can see Sam here.&#x000A;&#x000A;Sam asks you, "In what year was Delaware admitted into the Union?"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-102"/>
+    </children>
+  </item>
+  <item nodeId="node-102">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-103"/>
+    </children>
+  </item>
+  <item nodeId="node-103">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-104"/>
+    </children>
+  </item>
+  <item nodeId="node-104">
+    <command xml:space="preserve">quit</command>
+    <result xml:space="preserve">Are you sure you want to quit?</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-105"/>
+    </children>
+  </item>
+  <item nodeId="node-105">
+    <command xml:space="preserve">y</command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>

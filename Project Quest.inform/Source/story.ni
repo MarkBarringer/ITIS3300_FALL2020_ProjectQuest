@@ -1,6 +1,7 @@
 "Project Quest" by ITIS-3300 Fall 2020 Group 2
 
 Release along with an interpreter.
+Release along with cover art ("Cover of Information Technology Project Management 9th ed.").
 Use scoring.
 	The maximum score is 100.
 When play begins: 

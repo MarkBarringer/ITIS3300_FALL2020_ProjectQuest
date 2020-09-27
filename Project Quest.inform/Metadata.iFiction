@@ -14,6 +14,12 @@
             <language>en</language>
             <group>Inform</group>
         </bibliographic>
+        <cover>
+            <format>jpg</format>
+            <height>650</height>
+            <width>520</width>
+            <description>Cover of Information Technology Project Management 9th ed.</description>
+        </cover>
         <releases>
             <attached>
                 <release>
@@ -33,6 +39,7 @@
             <serial>200926</serial>
             <release>1</release>
             <compiler>Inform 7 build 6M62</compiler>
+            <coverpicture>1</coverpicture>
         </zcode>
     </story>
 </ifindex>

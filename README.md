@@ -5,4 +5,6 @@ This is the project files needed to open and edit the game using Inform 7.  http
 After installing Inform 7, copy each of these folders to your Inform\Projects folder.
 Launch Inform 7 and select open existing project.
 
+Have fun!
+
 /mb

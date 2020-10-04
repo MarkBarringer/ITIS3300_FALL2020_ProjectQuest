@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-1">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-105"/>
+  <activeNode nodeId="node-133"/>
   <item nodeId="node-1">
     <command xml:space="preserve">Project Quest</command>
-    <result xml:space="preserve">Project Quest&#x000A;An Interactive Fiction by ITIS-3300 Fall 2020 Group 2&#x000A;Release 1 / Serial number 200926 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Conference room&#x000A;You are a student in Professor Cynthia Burke's Software Requirements and Project Management class at UNC Charlotte. Presently you are in a classroom awaiting a quiz on Project Scope management. You are sitting at a desk with other students around you, and the professor is standing in front of a podium in the front of the class. Your computer which you will be using to take the quiz is right in front of you. There is a door to the South.&#x000A;&#x000A;The professor has asked if anyone wants another quick rundown on scope before the quiz. Go east to start the quiz.&#x000A;&#x000A;(DEBUG "examine the leaflet, ask professor burke about the project, examine computer, south, s, east, e")&#x000A;&#x000A;Professor Burke stands patiently waiting for you to do something...&#x000A;&#x000A;You can also see a computer and a leaflet here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Project Quest&#x000A;An Interactive Fiction by ITIS-3300 Fall 2020 Group 2&#x000A;Release 1 / Serial number 201003 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Conference room&#x000A;You are a student in Professor Cynthia Burke's Software Requirements and Project Management class at UNC Charlotte. Presently you are in a classroom awaiting a quiz on Project Scope management. You are sitting at a desk with other students around you, and the professor is standing in front of a podium in the front of the class. Your computer which you will be using to take the quiz is right in front of you. There is a door to the South.&#x000A;&#x000A;The professor has asked if anyone wants another quick rundown on scope before the quiz. Go east to start the quiz.&#x000A;&#x000A;Professor Burke stands patiently waiting for you to do something...&#x000A;&#x000A;You can also see a computer and a leaflet here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">Group Project&#x000A;An Interactive Fiction by ITIS-3300 Fall 2020 Group 2&#x000A;Release 1 / Serial number 200921 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Conference room&#x000A;You are standing in a rather unappealing conference room.  There is a table in the middle of the room.  There is a door to the South.&#x000A;&#x000A;You can see a clipboard, a leaflet and Professor Burke here.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <children>
       <child nodeId="node-2"/>
       <child nodeId="node-10"/>
@@ -19,6 +19,7 @@
       <child nodeId="node-54"/>
       <child nodeId="node-61"/>
       <child nodeId="node-71"/>
+      <child nodeId="node-106"/>
     </children>
   </item>
   <item nodeId="node-2">
@@ -917,6 +918,255 @@
   <item nodeId="node-105">
     <command xml:space="preserve">y</command>
     <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-106">
+    <command xml:space="preserve">help</command>
+    <result xml:space="preserve">&gt; Introduction to Project Quest&#x000A;   Settings&#x000A;   About the Author&#x000A;   Hints</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-107"/>
+    </children>
+  </item>
+  <item nodeId="node-107">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">Introduction to Project Quest&#x000A; &gt; Settings&#x000A;   About the Author&#x000A;   Hints&#x000A;&#x000A;   Introduction to Project Quest&#x000A; &gt; Settings&#x000A;   About the Author&#x000A;   Hints</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-108"/>
+    </children>
+  </item>
+  <item nodeId="node-108">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">Introduction to Project Quest&#x000A;   Settings&#x000A; &gt; About the Author&#x000A;   Hints&#x000A;&#x000A;   Introduction to Project Quest&#x000A;   Settings&#x000A; &gt; About the Author&#x000A;   Hints</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-109"/>
+    </children>
+  </item>
+  <item nodeId="node-109">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">Introduction to Project Quest&#x000A;   Settings&#x000A;   About the Author&#x000A; &gt; Hints&#x000A;&#x000A;   Introduction to Project Quest&#x000A;   Settings&#x000A;   About the Author&#x000A; &gt; Hints</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-110"/>
+    </children>
+  </item>
+  <item nodeId="node-110">
+    <command xml:space="preserve">[up]</command>
+    <result xml:space="preserve">Introduction to Project Quest&#x000A;   Settings&#x000A; &gt; About the Author&#x000A;   Hints&#x000A;&#x000A;   Introduction to Project Quest&#x000A;   Settings&#x000A; &gt; About the Author&#x000A;   Hints</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-111"/>
+    </children>
+  </item>
+  <item nodeId="node-111">
+    <command xml:space="preserve">[up]</command>
+    <result xml:space="preserve">Introduction to Project Quest&#x000A; &gt; Settings&#x000A;   About the Author&#x000A;   Hints&#x000A;&#x000A;   Introduction to Project Quest&#x000A; &gt; Settings&#x000A;   About the Author&#x000A;   Hints</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-112"/>
+    </children>
+  </item>
+  <item nodeId="node-112">
+    <command xml:space="preserve">[up]</command>
+    <result xml:space="preserve">&gt; Introduction to Project Quest&#x000A;   Settings&#x000A;   About the Author&#x000A;   Hints&#x000A;&#x000A; &gt; Introduction to Project Quest&#x000A;   Settings&#x000A;   About the Author&#x000A;   Hints</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-113"/>
+    </children>
+  </item>
+  <item nodeId="node-113">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">This is a simple demonstration Fiction game.&#x000A;&#x000A;&#x000A;&#x000A;Please press SPACE to continue.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-114"/>
+    </children>
+  </item>
+  <item nodeId="node-114">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">&gt; Introduction to Project Quest&#x000A;   Settings&#x000A;   About the Author&#x000A;   Hints&#x000A;&#x000A; &gt; Introduction to Project Quest&#x000A;   Settings&#x000A;   About the Author&#x000A;   Hints</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-115"/>
+    </children>
+  </item>
+  <item nodeId="node-115">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">Introduction to Project Quest&#x000A; &gt; Settings&#x000A;   About the Author&#x000A;   Hints&#x000A;&#x000A;   Introduction to Project Quest&#x000A; &gt; Settings&#x000A;   About the Author&#x000A;   Hints</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-116"/>
+    </children>
+  </item>
+  <item nodeId="node-116">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">&gt; Score notification on</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-117"/>
+    </children>
+  </item>
+  <item nodeId="node-117">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">Score notification off.&#x000A;&#x000A;&#x000A; &gt; Score notification off&#x000A;&#x000A; &gt; Score notification off</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-118"/>
+    </children>
+  </item>
+  <item nodeId="node-118">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">Score notification on.&#x000A;&#x000A;&#x000A; &gt; Score notification on&#x000A;&#x000A; &gt; Score notification on</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-119"/>
+    </children>
+  </item>
+  <item nodeId="node-119">
+    <command xml:space="preserve">q</command>
+    <result xml:space="preserve">Introduction to Project Quest&#x000A; &gt; Settings&#x000A;   About the Author&#x000A;   Hints</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-120"/>
+    </children>
+  </item>
+  <item nodeId="node-120">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">Introduction to Project Quest&#x000A;   Settings&#x000A; &gt; About the Author&#x000A;   Hints&#x000A;&#x000A;   Introduction to Project Quest&#x000A;   Settings&#x000A; &gt; About the Author&#x000A;   Hints</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-121"/>
+    </children>
+  </item>
+  <item nodeId="node-121">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">ITIS-3300 Fall 2020 Group 2 is too reclusive to wish to disseminate any information. Sorry.&#x000A;&#x000A;&#x000A;&#x000A;Please press SPACE to continue.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-122"/>
+    </children>
+  </item>
+  <item nodeId="node-122">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">Introduction to Project Quest&#x000A;   Settings&#x000A; &gt; About the Author&#x000A;   Hints&#x000A;&#x000A;   Introduction to Project Quest&#x000A;   Settings&#x000A; &gt; About the Author&#x000A;   Hints</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-123"/>
+    </children>
+  </item>
+  <item nodeId="node-123">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">Introduction to Project Quest&#x000A;   Settings&#x000A;   About the Author&#x000A; &gt; Hints&#x000A;&#x000A;   Introduction to Project Quest&#x000A;   Settings&#x000A;   About the Author&#x000A; &gt; Hints</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-124"/>
+    </children>
+  </item>
+  <item nodeId="node-124">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">&gt; How do I reach the mastodon's jawbone?&#x000A;   How can I make Leaky leave me alone?</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-125"/>
+    </children>
+  </item>
+  <item nodeId="node-125">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">1/3: Have you tried Dr. Seaton's Patent Arm-Lengthening Medication?&#x000A;&#x000A;Press SPACE to return to the menu or H to reveal another hint.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-126"/>
+    </children>
+  </item>
+  <item nodeId="node-126">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">&gt; How do I reach the mastodon's jawbone?&#x000A;   How can I make Leaky leave me alone?&#x000A;&#x000A; &gt; How do I reach the mastodon's jawbone?&#x000A;   How can I make Leaky leave me alone?</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-127"/>
+    </children>
+  </item>
+  <item nodeId="node-127">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">1/3: Have you tried Dr. Seaton's Patent Arm-Lengthening Medication?&#x000A;&#x000A;Press SPACE to return to the menu or H to reveal another hint.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-128"/>
+    </children>
+  </item>
+  <item nodeId="node-128">
+    <command xml:space="preserve">q</command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-129"/>
+    </children>
+  </item>
+  <item nodeId="node-129">
+    <command xml:space="preserve">[back]</command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-130"/>
+    </children>
+  </item>
+  <item nodeId="node-130">
+    <command xml:space="preserve">[esc]</command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-131"/>
+    </children>
+  </item>
+  <item nodeId="node-131">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">&gt; How do I reach the mastodon's jawbone?&#x000A;   How can I make Leaky leave me alone?&#x000A;&#x000A; &gt; How do I reach the mastodon's jawbone?&#x000A;   How can I make Leaky leave me alone?</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-132"/>
+    </children>
+  </item>
+  <item nodeId="node-132">
+    <command xml:space="preserve">q</command>
+    <result xml:space="preserve">Introduction to Project Quest&#x000A;   Settings&#x000A;   About the Author&#x000A; &gt; Hints</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-133"/>
+    </children>
+  </item>
+  <item nodeId="node-133">
+    <command xml:space="preserve">q</command>
+    <result xml:space="preserve">Conference room&#x000A;You are a student in Professor Cynthia Burke's Software Requirements and Project Management class at UNC Charlotte. Presently you are in a classroom awaiting a quiz on Project Scope management. You are sitting at a desk with other students around you, and the professor is standing in front of a podium in the front of the class. Your computer which you will be using to take the quiz is right in front of you. There is a door to the South.&#x000A;&#x000A;The professor has asked if anyone wants another quick rundown on scope before the quiz. Go east to start the quiz.&#x000A;&#x000A;Professor Burke stands patiently waiting for you to do something...&#x000A;&#x000A;You can also see a computer and a leaflet here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
